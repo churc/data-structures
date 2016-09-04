@@ -1,5 +1,5 @@
-//loop attempt using array-loop, and for to go through the 10 htmls and write body text to all.txt 
-//doesn't work 
+//loop attempt using array-loop and for to go through the 10 htmls and write body text to all.txt 
+//not getting this to work 
 
 var request = require('request');
 var fs = require('fs');
