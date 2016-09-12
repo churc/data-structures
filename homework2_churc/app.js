@@ -1,7 +1,7 @@
 //test app2 works to get information from the detailsBox but not getting the address information through the 
-//table width=100% attribute. Tried many approaches / read up on jquery and node to see if I could work this out. Learnt a lot 
-//in the process but unfortunately did not work out how to get the address information.
-//Look forward to finding out in class where I am going wrong and hope to connect with Priyal this week to improve my basic node
+//table width=100% attribute. Tried many approaches / read up a lot on jquery and node, and googled this to try and work this out. 
+//Learnt a lot in the process but unfortunately did not work out how to get the address information.
+//Look forward to finding out in class where I am going wrong - and hope to connect with Priyal this week to improve my basic node
 //understanding
 
 var fs = require('fs');
