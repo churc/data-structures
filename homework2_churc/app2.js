@@ -1,5 +1,6 @@
 //test: this works to get information in the details box to the console log 
-//but only the last line is shown in the text 1address file
+//but only the last line is shown in the text 1address file - tried the var addresses to get 
+// all the address information to log 
 
 var fs = require('fs');
 var cheerio = require('cheerio');
