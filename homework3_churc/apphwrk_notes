@@ -1,0 +1,2 @@
+// attempt at geocoding address using google maps api. 
+// see result address in google maps results, not finding though how to get the lat long coordinates in the console log
