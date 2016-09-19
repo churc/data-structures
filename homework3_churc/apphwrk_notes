@@ -1,2 +1,2 @@
-// attempt at geocoding address using google maps api. 
-// see result address in google maps results, not finding though how to get the lat long coordinates in the console log
+// attempt at geocoding address using google maps api (with help) - apphwrk1.js works
+// apphwrk2.js uses full set of addresses from app.js but does not go through all the addresses - stil need to work on app.js 
