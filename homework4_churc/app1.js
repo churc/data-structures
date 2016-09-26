@@ -1,6 +1,6 @@
 ///connected to mongodb
 //using parsed meetings array with lat long and addresses 
-// not managing to take out the + between words or to see the documents in the terminal
+// line 28 replace error, not getting the documents in the terminal
 
 // IN THE MONGO SHELL: 
 //   CREATE DATABASE meetings AND SWITCH TO IT WITH: 
