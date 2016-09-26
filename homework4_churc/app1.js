@@ -1,6 +1,7 @@
 ///connected to mongodb
 //using parsed meetings array with lat long and addresses 
-// line 28 replace error, not getting the documents in the terminal
+//structured around latlong
+// line 29 replace error, not getting the documents in the terminal
 
 // IN THE MONGO SHELL: 
 //   CREATE DATABASE meetings AND SWITCH TO IT WITH: 
