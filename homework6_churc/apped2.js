@@ -65,10 +65,10 @@ $('tbody').find('tr').each(function(i, elem) {
     else if (addressb === '49 Fulton Street, New York, NY NY 10038'){
     addressb = '49 Fulton Street, New York, NY 10038';
     }
-else if (addressb === '22 Barclay Street, New York, NY Entrance on Church St. between Vesey &amp; Barclay Streets NY'){
+    else if (addressb === '22 Barclay Street, New York, NY Entrance on Church St. between Vesey &amp; Barclay Streets NY'){
     addressb = '22 Barclay Street, New York, NY 10007';
     }
-else if (addressb === '283 West Broadway, New York, NY , Ground Floor, Broadway Room, Enter through Green Door 10013'){
+    else if (addressb === '283 West Broadway, New York, NY , Ground Floor, Broadway Room, Enter through Green Door 10013'){
     addressb = '283 West Broadway, New York, NY 10013';
     }
     else if (addressb === '22 Barclay Street- basement chapel, New York, NY between Church and Broadway NY 10006'){
