@@ -7,6 +7,15 @@ var cheerio = require('cheerio'); // npm install cheerio
 
 
 var content = fs.readFileSync('/home/ubuntu/workspace/data2/101.txt');
+//var content = fs.readFileSync('/home/ubuntu/workspace/data2/102.txt');
+//var content = fs.readFileSync('/home/ubuntu/workspace/data2/103.txt');
+//var content = fs.readFileSync('/home/ubuntu/workspace/data2/104.txt');
+//var content = fs.readFileSync('/home/ubuntu/workspace/data2/105.txt');
+//var content = fs.readFileSync('/home/ubuntu/workspace/data2/106.txt');
+//var content = fs.readFileSync('/home/ubuntu/workspace/data2/107.txt');
+//var content = fs.readFileSync('/home/ubuntu/workspace/data2/108.txt');
+//var content = fs.readFileSync('/home/ubuntu/workspace/data2/109.txt');
+//var content = fs.readFileSync('/home/ubuntu/workspace/data2/110.txt');
 // - Move var meetings = new Object(); down to within the function  -line 19: 
 //PUT variables into arrays and push all the arrays into an object within the function - AFTER parsing each indiv element
 
@@ -32,7 +41,9 @@ $('tbody').find('tr').each(function(i, elem) {
 
     //   NAME - in CAPS on AA site//
 
-    var name1 = $(elem).find('td').find('b').eq(0).text().split('-')[0].trim();
+    //var name1 = $(elem).find('td').find('b').eq(0).text().split('-')[0].trim();
+    var name1 = $(elem).find('td').find('b').eq(0).text().replace(/\s+/g, " ").split('-')[0].trim();
+
 
     if (name1 === 'CHAMBERS STREET ') {
         name1 = 'CHAMBERS STREET - A BRIDGE BACK';
@@ -65,10 +76,10 @@ $('tbody').find('tr').each(function(i, elem) {
     else if (addressb === '49 Fulton Street, New York, NY NY 10038'){
     addressb = '49 Fulton Street, New York, NY 10038';
     }
-    else if (addressb === '22 Barclay Street, New York, NY Entrance on Church St. between Vesey &amp; Barclay Streets NY'){
+else if (addressb === '22 Barclay Street, New York, NY Entrance on Church St. between Vesey &amp; Barclay Streets NY'){
     addressb = '22 Barclay Street, New York, NY 10007';
     }
-    else if (addressb === '283 West Broadway, New York, NY , Ground Floor, Broadway Room, Enter through Green Door 10013'){
+else if (addressb === '283 West Broadway, New York, NY , Ground Floor, Broadway Room, Enter through Green Door 10013'){
     addressb = '283 West Broadway, New York, NY 10013';
     }
     else if (addressb === '22 Barclay Street- basement chapel, New York, NY between Church and Broadway NY 10006'){
