@@ -242,7 +242,7 @@ client.query(queryHigh, function(err, result) {
     });
 
 
-///////TO GET TOTAL TIME LIGHT IS 800 OR HIGHER 
+///////TO COUNT TOTAL NUMBER OF TIMES LIGHT IS 800 OR HIGHER 
 client.query(queryLong, function(err, result) {
         done();
 
