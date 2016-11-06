@@ -77,9 +77,10 @@ var queryBright = "SELECT * FROM lightR AS bt WHERE reading > 800 AND reading < 
 var queryVeryBright = "SELECT * FROM lightR AS vb WHERE reading >= 950 ORDER BY dateCreated;";
 
 var queryHighest = "SELECT * FROM lightR AS hght ORDER BY reading DESC LIMIT 1;";
-var queryHigh = "SELECT * FROM lightR AS hgh WHERE reading >= 750 ORDER BY dateCreated;";
-var queryLong = "SELECT DISTINCT date_trunc('second', "dateCreated") AS long, COUNT (*) OVER (ORDER BY date_trunc('second', "dateCreated")) AS running_ct FROM lightR;";
-//var queryLong = "SELECT DISTINCT dateCreated_trunc('second', "dateCreated") AS long, COUNT (*) OVER (ORDER BY dateCreated_trunc('second', "dateCreated")) AS running_ct FROM lightR WHERE reading > 750 ORDER BY dateCreated_trunc('second', "dateCreated");";
+var queryHigh = "SELECT * FROM lightR AS hgh WHERE reading >= 800 ORDER BY dateCreated;";
+var queryLong = "SELECT windowNo, COUNT (reading) FROM lightR AS running_ct WHERE reading >= 800 GROUP BY windowNo";
+///trying to get length of time where light is 800 and over
+//var queryLong2 = "SELECT DISTINCT dateCreated_trunc('second', "dateCreated") AS long, COUNT (*) OVER (ORDER BY dateCreated_trunc('second', "dateCreated")) AS running_ct FROM lightR WHERE reading > 800 ORDER BY dateCreated_trunc('second', "dateCreated");";
 
 
 pg.connect(conString, function(err, client, done) {
@@ -107,9 +108,9 @@ client.query(insertIntoQuery, function(err, result) {
         if (err) {
             return console.error('error running query', err);
         }
-        // else{
-        //  console.log(result.rows);
-        // }
+        else{
+         console.log(result.rows);
+        }
      });
 
 //////TO GET ALL READINGS IN TABLE ////////////////////
@@ -120,102 +121,102 @@ client.query(query, function(err, result) {
         if (err) {
             return console.error('error running query', err);
         }
-        // else{
-        //  console.log(result.rows);
-        // }
+        else{
+         console.log(result.rows);
+        }
      });
 
 ////TO GROUP BY AMOUNT OF LIGHT in order to color code by light, groups are: 
 //night, nearly dark, dusk, very dim, dim, light, bright & very bright/////
 
-// client.query(queryNight, function(err, result) {
-//         done();
+client.query(queryNight, function(err, result) {
+        done();
 
-//         if (err) {
-//             return console.error('error running query', err);
-//         }
-//        else{
-//          console.log(result.rows);
-//         }
-//     });
+        if (err) {
+            return console.error('error running query', err);
+        }
+       else{
+         console.log(result.rows);
+        }
+    });
 
-// client.query(queryNearlyDark, function(err, result) {
-//         done();
+client.query(queryNearlyDark, function(err, result) {
+        done();
 
-//         if (err) {
-//             return console.error('error running query', err);
-//         }
-//        else{
-//          console.log(result.rows);
-//         }
-//     });
+        if (err) {
+            return console.error('error running query', err);
+        }
+       else{
+         console.log(result.rows);
+        }
+    });
 
-// client.query(queryDusk, function(err, result) {
-//         done();
+client.query(queryDusk, function(err, result) {
+        done();
 
-//         if (err) {
-//             return console.error('error running query', err);
-//         }
-//        else{
-//          console.log(result.rows);
-//         }
-//     });
+        if (err) {
+            return console.error('error running query', err);
+        }
+       else{
+         console.log(result.rows);
+        }
+    });
 
-// client.query(queryVeryDim, function(err, result) {
-//         done();
+client.query(queryVeryDim, function(err, result) {
+        done();
 
-//         if (err) {
-//             return console.error('error running query', err);
-//         }
-//        else{
-//          console.log(result.rows);
-//         }
-//     });
+        if (err) {
+            return console.error('error running query', err);
+        }
+       else{
+         console.log(result.rows);
+        }
+    });
 
-// client.query(queryDim, function(err, result) {
-//         done();
+client.query(queryDim, function(err, result) {
+        done();
 
-//         if (err) {
-//             return console.error('error running query', err);
-//         }
-//        else{
-//          console.log(result.rows);
-//         }
-//     });
+        if (err) {
+            return console.error('error running query', err);
+        }
+       else{
+         console.log(result.rows);
+        }
+    });
 
-// client.query(queryLight, function(err, result) {
-//         done();
+client.query(queryLight, function(err, result) {
+        done();
 
-//         if (err) {
-//             return console.error('error running query', err);
-//         }
-//        // else{
-//        //   console.log(result.rows);
-//        //  }
-//     });
+        if (err) {
+            return console.error('error running query', err);
+        }
+       // else{
+       //   console.log(result.rows);
+       //  }
+    });
 
-// client.query(queryBright, function(err, result) {
-//         done();
+client.query(queryBright, function(err, result) {
+        done();
 
-//         if (err) {
-//             return console.error('error running query', err);
-//         }
-//        else{
-//          console.log(result.rows);
-//         }
-//     });
+        if (err) {
+            return console.error('error running query', err);
+        }
+       else{
+         console.log(result.rows);
+        }
+    });
 
-// client.query(queryVeryBright, function(err, result) {
-//         done();
+client.query(queryVeryBright, function(err, result) {
+        done();
 
-//         if (err) {
-//             return console.error('error running query', err);
-//         }
-//        else{
-//          console.log(result.rows);
-//         }
-//     });
-////////TO GET HIGHEST READING
+        if (err) {
+            return console.error('error running query', err);
+        }
+       else{
+         console.log(result.rows);
+        }
+    });
+//////TO GET HIGHEST READING
 client.query(queryHighest, function(err, result) {
         done();
 
