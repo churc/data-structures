@@ -77,7 +77,7 @@ var queryVeryBright = "SELECT * FROM lightR12 AS vb WHERE reading >= 950 ORDER B
 
 var queryHighest = "SELECT * FROM lightR12 AS hght ORDER BY reading DESC LIMIT 1;";
 var queryHigh = "SELECT * FROM lightR12 AS hgh WHERE reading >= 800 ORDER BY dateCreated;";
-var queryLong = "SELECT windowNo, COUNT (reading) FROM lightR AS running_ct WHERE reading >= 800 GROUP BY windowNo";
+var queryLong = "SELECT windowNo, COUNT (reading) FROM lightR12 AS running_ct WHERE reading >= 800 GROUP BY windowNo";
 ///trying to get length of time where light is 800 and over
 //var queryLong2 = "SELECT DISTINCT dateCreated_trunc('second', "dateCreated") AS long, COUNT (*) OVER (ORDER BY dateCreated_trunc('second', "dateCreated")) AS running_ct FROM lightR WHERE reading > 800 ORDER BY dateCreated_trunc('second', "dateCreated");";
 
