@@ -15,4 +15,4 @@ Arduino photocell sensor light readings (sublime text, terminal):
 appst.js: INSERTS photocell sensor readings into AWS table, lightR12. Window number, light reading, time created.
 
 lightQueryAWS.js queries RDS db and returns query into server.js
-URL: https://class8-churc.c9users.io/
+URL: https://class8-churc.c9users.io/ see screenshot 
