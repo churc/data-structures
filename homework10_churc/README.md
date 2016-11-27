@@ -14,5 +14,5 @@ geo_apped6.js: INSERTS 'meetings.txt': text file into MONGO DB. meetings.txt has
 Arduino photocell sensor light readings (sublime text, terminal):
 appst.js: INSERTS photocell sensor readings into AWS table, lightR12. Window number, light reading, time created.
 
-lightQueryAWS3.js queries RDS db and returns query into server.js
+queryLightAWS3.js queries RDS db and returns query into server.js
 URL: https://class10-churc.c9users.io/ see screenshot 
