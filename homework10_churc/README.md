@@ -1,4 +1,4 @@
-AA map data (node):
+AA map data (Mongo, node):
 
 apped4_ah.js: takes all information from txt file (/home/ubuntu/workspace/zipData/01.txt) and saves in new file (raw_groups1.txt).
   Contains all info for AA area 01. THIS TAKES EACH BlDG, NAME, DAY, MTG TYPE etc AND PARSES IT INTO RAW DATA FILE
@@ -11,10 +11,11 @@ app6.js: parses addresses 'meetingsArray.txt' for area code 01 and gets latLong 
 
 geo_apped6.js: INSERTS 'meetings.txt': text file into MONGO DB collection 'meetings. Geocode has 22 location addresses and latLong for area code 01.
 
+AqueryMongo.js: aggregates Mongo db documents and returns query into server.js
 URL: https://homework1-churc.c9users.io/ and see screenshot
 
 
-Arduino photocell sensor light readings (sublime text, terminal):
+Arduino photocell sensor light readings (AWS, sublime text, terminal. Query in node):
 
 appst.js: INSERTS photocell sensor readings into AWS table, lightR12. Window number, light reading, time created.
 
