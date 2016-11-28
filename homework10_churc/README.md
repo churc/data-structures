@@ -1,9 +1,8 @@
 AA map data (Mongo, node):
 
-apped4_ah.js: takes all information from txt file (/home/ubuntu/workspace/zipData/01.txt) and saves in new file (raw_groups1.txt).
-  Contains all info for AA area 01. THIS TAKES EACH BlDG, NAME, DAY, MTG TYPE etc AND PARSES IT INTO RAW DATA FILE
+apped4_ah.js: takes all information from text files (/home/ubuntu/workspace/zipData/01.txt and 02/03/04/05) and saves in new files (raw_groups1.txt and 2/3/4/5).
   
-clean_apped4_ah.js: 57 objects with information on txt.1 file for AA area 01; clean to go to Mongo. TAKES apped4_ah.js and cleans it up  
+clean_apped4_ah.js: 57 objects with information on txt.1 file for AA area 01; clean to go to Mongo. This takes apped4_ah.js and cleans data up for AA areas 1,2,3,4 and 5 (so far).
   
 clean_apped6_ah.js: INSERTS 'groups1.txt': text file 1 into MONGO DB. groups1.txt was generated in clean_apped4_ah.js
 
