@@ -15,6 +15,7 @@ AqueryMongo.js: aggregates Mongo db documents and returns query into server.js
 URL: https://homework1-churc.c9users.io/ and see screenshot
 
 
+
 Arduino photocell sensor light readings (AWS, sublime text, terminal. Query in node):
 
 appst.js: INSERTS photocell sensor readings into AWS table, lightR12. Window number, light reading, time created.
