@@ -1,3 +1,0 @@
-///light r studio
-
-> install.packages("ggplot2")
