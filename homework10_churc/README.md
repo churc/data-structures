@@ -18,7 +18,7 @@ URL: https://homework1-churc.c9users.io/ and see screenshot
 
   Arduino photocell sensor light readings (AWS, sublime text, terminal. Query in node):
 
-appst.js / sublime text: inserts photocell sensor readings into AWS table, lightR12. (Window number, light reading, time).
+appLight.js / sublime text: inserts photocell sensor readings into AWS table, lightP. (Window number, light reading, time).
 
 queryLightAWS3.js / class 10: queries RDS db and returns query into server.js
 
