@@ -23,3 +23,4 @@ appLight.js / sublime text: inserts photocell sensor readings into AWS table, li
 queryLightAWS3.js / class 10: queries RDS db and returns query into server.js
 
 URL: https://class10-churc.c9users.io/  and see screenshot 
+![my description](https://raw.githubusercontent.com/churc/data-structures/master/homework10_churc/Screen%20Shot%202016-11-25%20at%207.06.47%20PM.png "This is my title")
