@@ -10,6 +10,8 @@ app6.js / homework 1: parses addresses 'meetingsArray.txt' for area code 01 and 
 
 geo_apped6Mongo.js / class 4: inserts 'meetings.txt' latLong into MONGO DB collection 'meetings'. Geocode has 22 location addresses and latLong for area code 01.
 
+class3geo.js  / class 3: gets lat long for each address
+
 AqueryMongo.js / homework 1: aggregates Mongo db documents and returns query into server.js
 
 URL: https://homework1-churc.c9users.io/ and see screenshot
