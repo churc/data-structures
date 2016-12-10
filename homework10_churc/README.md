@@ -1,4 +1,4 @@
-  AA map data (Mongo, node):
+  AA map data (Mongo, node), working with Manhattan area codes 1 - 10:
 
 apped4_ah.js / class 3: takes all information from 01.txt - 10.txt files (/home/ubuntu/workspace/zipData/01.txt - /10.txt) and saves in ten new files (raw_groups1.txt - /10.txt).
   
@@ -6,11 +6,11 @@ clean_apped4_ah.js / class 3: This takes apped4_ah.js and cleans data up for AA 
 
 class3geo.js  / class 3: This takes text files from clean_apped4_ah.js and gets lat long for each address. Saved in ten text files (groupslatLg1.txt - /10.txt).
   
-clean_apped6_ah.js / class 3: inserts the groups1 - 10 text files and the groupslatLg1-10 text files into MONGO DB. 
+geo_apped6Mongo.js / homework 1: inserts the ten groups1 - 10.txt files and ten groups1latLg.txt - groups10latLg.txt files into MONGO DB. 
 
 ?app6.js / homework 1: parses addresses 'meetingsArray.txt' for area code 01 and gets latLong for each address, saved in 'meetings.txt'. 
 
-?geo_apped6Mongo.js / class 4: inserts 'meetings.txt' latLong into MONGO DB collection 'meetings'. Geocode has 22 location addresses and latLong for area code 01.
+
 
 
 AqueryMongo.js / homework 1: aggregates Mongo db documents and returns query into server.js
