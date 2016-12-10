@@ -1,6 +1,6 @@
   AA map data (Mongo, node):
 
-apped4_ah.js / class 3: takes all information from text files (/home/ubuntu/workspace/zipData/01.txt - /10.txt) and saves in ten new files (raw_groups1.txt - /10.txt).
+apped4_ah.js / class 3: takes all information from 01.txt - 10.txt files (/home/ubuntu/workspace/zipData/01.txt - /10.txt) and saves in ten new files (raw_groups1.txt - /10.txt).
   
 clean_apped4_ah.js / class 3: This takes apped4_ah.js and cleans data up for AA areas 1 to 10 (Manhattan). Saved in ten text files (groups1.txt - /10.txt).
 
