@@ -2,13 +2,13 @@
 <H4> Photoresistors reading light on 2 window sills for 12 hours </H4>
 <H5> Light readings in GMT (UTC): 6.30am - 6.30p EST is 11.30 - 23.30 GMT</H5>
 
-![](https://github.com/churc/data-structures/blob/master/homework10_churc/Photocell/Photocell1_1.jpg)
+![](https://github.com/churc/data-structures/blob/master/homework10_churc/Photocell/Photocell1_1.jpg "Photoresistor 1")
 
 
-![](https://github.com/churc/data-structures/blob/master/homework10_churc/Photocell/Photocell1_2.jpg)
+![](https://github.com/churc/data-structures/blob/master/homework10_churc/Photocell/Photocell1_2.jpg  "2 photoresistors")
 
 
-![](https://github.com/churc/data-structures/blob/master/homework10_churc/Photocell/PhotocellReadings.jpg)
+![](https://github.com/churc/data-structures/blob/master/homework10_churc/Photocell/PhotocellReadings.jpg "Readings")
 
 
-![](https://github.com/churc/data-structures/blob/master/homework10_churc/Photocell/Screen%20Shot%202016-12-11%20at%203.31.20%20AM.png)
+![](https://github.com/churc/data-structures/blob/master/homework10_churc/Photocell/Screen%20Shot%202016-12-11%20at%203.31.20%20AM.png "SQL query on AWS database")
