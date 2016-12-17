@@ -1,44 +1,455 @@
 
  var fs = require('fs');
  
-
+ //////TAKING CLEAN MEETING GROUP INFORMATION FOR EACH AREA CODE (GROUP1 - 10.TXT GENERATED IN clean_apped4_ah.js AND LAT LONG
+ ///FOR EACH AREA CODE groups01-10latlg.txt GENERATED IN class3geo.js / class 3
+ /// CODE BELOW JOINS THESE TWO FILES FOR EACH AREA CODE TO MAKE SERIES OF FILES groupsAddLL01 - 10.txt
+ ///THESE CAN GO INTO MONGO TO QUERY
  
- /////////SUPER CLOSE 44
-var addresses = JSON.parse(fs.readFileSync("/home/ubuntu/workspace/groups10.txt"));
+ 
+ ///////// 44  AREA CODE 1  groups1.txt 
+ 
+// var addresses = JSON.parse(fs.readFileSync("/home/ubuntu/workspace/groups1.txt"));
 
-var addLatLong =   JSON.parse(fs.readFileSync("/home/ubuntu/workspace/groups10latLg.txt"));
+// var addLatLong =   JSON.parse(fs.readFileSync("/home/ubuntu/workspace/groups01latLg.txt"));
+
+// var addressesWithLatLong = [];
+
+// for (var i=0; i < addresses.length; i++) {
+//     var thisObject = new Object({location}); 
+//   var location = new Object();
+//     thisObject.address2 = addresses[i].address2;
+//     thisObject.address = addresses[i].address1;
+//     thisObject.name = addresses[i].name;
+//     thisObject.building = addresses[i].building;
+//     thisObject.day = addresses[i].day;
+//     thisObject.startTime = addresses[i].startTime;
+//     thisObject.endTime = addresses[i].endTime;
+//     thisObject.meetingType = addresses[i].meetingType;
+//     thisObject.specialInterest = addresses[i].specialInterest;
+//     thisObject.notes = addresses[i].notes;
+//     thisObject.access = addresses[i].access;
+    
+//     addressesWithLatLong.push(thisObject);
+    
+//     location.latLong = addLatLong[i].latLong;
+//     location.address2 = addLatLong[i].address2;
+    
+//     thisObject.location = location.latLong;
+//      thisObject.location.address2 = location.address2;
+    
+// }
+
+
+// console.log(addressesWithLatLong);
+// console.log(addressesWithLatLong.length);
+// fs.writeFileSync('groupsAddLL01.txt', JSON.stringify(addressesWithLatLong));
+
+ ////////////////
+
+ ///////// 44 AREA CODE 2  groups2.txt 
+// var addresses = JSON.parse(fs.readFileSync("/home/ubuntu/workspace/groups2.txt"));
+
+// var addLatLong =   JSON.parse(fs.readFileSync("/home/ubuntu/workspace/groups02latLg.txt"));
+
+// var addressesWithLatLong = [];
+
+// for (var i=0; i < addresses.length; i++) {
+//     var thisObject = new Object({location}); 
+//   var location = new Object();
+//     thisObject.address2 = addresses[i].address2;
+//     thisObject.address = addresses[i].address1;
+//     thisObject.name = addresses[i].name;
+//     thisObject.building = addresses[i].building;
+//     thisObject.day = addresses[i].day;
+//     thisObject.startTime = addresses[i].startTime;
+//     thisObject.endTime = addresses[i].endTime;
+//     thisObject.meetingType = addresses[i].meetingType;
+//     thisObject.specialInterest = addresses[i].specialInterest;
+//     thisObject.notes = addresses[i].notes;
+//     thisObject.access = addresses[i].access;
+    
+//     addressesWithLatLong.push(thisObject);
+    
+//     location.latLong = addLatLong[i].latLong;
+//     location.address2 = addLatLong[i].address2;
+    
+//     thisObject.location = location.latLong;
+//      thisObject.location.address2 = location.address2;
+    
+// }
+
+
+// console.log(addressesWithLatLong);
+// console.log(addressesWithLatLong.length);
+// fs.writeFileSync('groupsAddLL02.txt', JSON.stringify(addressesWithLatLong));
+
+//  ////////////////
+
+//  ///////// 44 AREA CODE 3  groups3.txt 
+// var addresses = JSON.parse(fs.readFileSync("/home/ubuntu/workspace/groups3.txt"));
+
+// var addLatLong =   JSON.parse(fs.readFileSync("/home/ubuntu/workspace/groups03latLg.txt"));
+
+// var addressesWithLatLong = [];
+
+// for (var i=0; i < addresses.length; i++) {
+//     var thisObject = new Object({location}); 
+//   var location = new Object();
+//     thisObject.address2 = addresses[i].address2;
+//     thisObject.address = addresses[i].address1;
+//     thisObject.name = addresses[i].name;
+//     thisObject.building = addresses[i].building;
+//     thisObject.day = addresses[i].day;
+//     thisObject.startTime = addresses[i].startTime;
+//     thisObject.endTime = addresses[i].endTime;
+//     thisObject.meetingType = addresses[i].meetingType;
+//     thisObject.specialInterest = addresses[i].specialInterest;
+//     thisObject.notes = addresses[i].notes;
+//     thisObject.access = addresses[i].access;
+    
+//     addressesWithLatLong.push(thisObject);
+    
+//     location.latLong = addLatLong[i].latLong;
+//     location.address2 = addLatLong[i].address2;
+    
+//     thisObject.location = location.latLong;
+//      thisObject.location.address2 = location.address2;
+    
+// }
+
+
+// console.log(addressesWithLatLong);
+// console.log(addressesWithLatLong.length);
+// fs.writeFileSync('groupsAddLL03.txt', JSON.stringify(addressesWithLatLong));
+
+//  ////////////////
+
+//  ///////// 44  AREA CODE 4  groups4.txt 
+// var addresses = JSON.parse(fs.readFileSync("/home/ubuntu/workspace/groups4.txt"));
+
+// var addLatLong =   JSON.parse(fs.readFileSync("/home/ubuntu/workspace/groups04latLg.txt"));
+
+// var addressesWithLatLong = [];
+
+// for (var i=0; i < addresses.length; i++) {
+//     var thisObject = new Object({location}); 
+//   var location = new Object();
+//     thisObject.address2 = addresses[i].address2;
+//     thisObject.address = addresses[i].address1;
+//     thisObject.name = addresses[i].name;
+//     thisObject.building = addresses[i].building;
+//     thisObject.day = addresses[i].day;
+//     thisObject.startTime = addresses[i].startTime;
+//     thisObject.endTime = addresses[i].endTime;
+//     thisObject.meetingType = addresses[i].meetingType;
+//     thisObject.specialInterest = addresses[i].specialInterest;
+//     thisObject.notes = addresses[i].notes;
+//     thisObject.access = addresses[i].access;
+    
+//     addressesWithLatLong.push(thisObject);
+    
+//     location.latLong = addLatLong[i].latLong;
+//     location.address2 = addLatLong[i].address2;
+    
+//     thisObject.location = location.latLong;
+//      thisObject.location.address2 = location.address2;
+    
+// }
+
+
+// console.log(addressesWithLatLong);
+// console.log(addressesWithLatLong.length);
+// fs.writeFileSync('groupsAddLL04.txt', JSON.stringify(addressesWithLatLong));
+
+//  ////////////////
+
+//  ///////// 44  AREA CODE 5  groups5.txt 
+var addresses = JSON.parse(fs.readFileSync("/home/ubuntu/workspace/groups5.txt"));
+
+var addLatLong =   JSON.parse(fs.readFileSync("/home/ubuntu/workspace/groups05latLg.txt"));
 
 var addressesWithLatLong = [];
 
 for (var i=0; i < addresses.length; i++) {
     var thisObject = new Object({location}); 
-  var location = new Object();
-    thisObject.address2 = addresses[i].address2;
+ // var location = new Object();
+ var location = [];
     thisObject.address = addresses[i].address1;
+    thisObject.borough = "Manhattan";
     thisObject.name = addresses[i].name;
     thisObject.building = addresses[i].building;
     thisObject.day = addresses[i].day;
+    thisObject.dayQuery = addresses[i].dayQuery;
+    thisObject.hourQuery = addresses[i].hourQuery;
     thisObject.startTime = addresses[i].startTime;
+    thisObject.startTime1 = addresses[i].startTime1;
+    thisObject.startTime2 = addresses[i].startTime2;
+    thisObject.startTimeM = addresses[i].startTimeM;
+    thisObject.startHr = addresses[i].startHr;
+    thisObject.endTime = addresses[i].endTime;
+    thisObject.endTime1 = addresses[i].endTime1;
+    thisObject.endTime2 = addresses[i].endTime2;
+    thisObject.endTimeM = addresses[i].endTimeM;
+    thisObject.endTime3 = addresses[i].endTime3;
+    thisObject.endHr = addresses[i].endHr;
     thisObject.endTime = addresses[i].endTime;
     thisObject.meetingType = addresses[i].meetingType;
+    thisObject.meetingTypeLong = addresses[i].meetingTypeLong;
     thisObject.specialInterest = addresses[i].specialInterest;
-    thisObject.notes = addresses[i].notes;
+    thisObject.details = addresses[i].details;
     thisObject.access = addresses[i].access;
     
     addressesWithLatLong.push(thisObject);
     
     location.latLong = addLatLong[i].latLong;
-    location.address2 = addLatLong[i].address2;
+   //location.address2 = addLatLong[i].address2;
     
     thisObject.location = location.latLong;
-     thisObject.location.address2 = location.address2;
+     //thisObject.location.address2 = location.address2;
     
 }
 
 
 console.log(addressesWithLatLong);
 console.log(addressesWithLatLong.length);
-fs.writeFileSync('groupsAddLL10.txt', JSON.stringify(addressesWithLatLong));
+fs.writeFileSync('groupsAddLL05.txt', JSON.stringify(addressesWithLatLong));
+
+//  ////////////////
+
+//  ///////// 44 AREA CODE 6  groups6.txt 
+// var addresses = JSON.parse(fs.readFileSync("/home/ubuntu/workspace/groups6.txt"));
+
+// var addLatLong =   JSON.parse(fs.readFileSync("/home/ubuntu/workspace/groups06latLg.txt"));
+
+// var addressesWithLatLong = [];
+
+// for (var i=0; i < addresses.length; i++) {
+//     var thisObject = new Object({location}); 
+//   var location = new Object();
+//     thisObject.address2 = addresses[i].address2;
+//     thisObject.address = addresses[i].address1;
+//     thisObject.name = addresses[i].name;
+//     thisObject.building = addresses[i].building;
+//     thisObject.day = addresses[i].day;
+//     thisObject.startTime = addresses[i].startTime;
+//     thisObject.endTime = addresses[i].endTime;
+//     thisObject.meetingType = addresses[i].meetingType;
+//     thisObject.specialInterest = addresses[i].specialInterest;
+//     thisObject.notes = addresses[i].notes;
+//     thisObject.access = addresses[i].access;
+    
+//     addressesWithLatLong.push(thisObject);
+    
+//     location.latLong = addLatLong[i].latLong;
+//     location.address2 = addLatLong[i].address2;
+    
+//     thisObject.location = location.latLong;
+//      thisObject.location.address2 = location.address2;
+    
+// }
+
+
+// console.log(addressesWithLatLong);
+// console.log(addressesWithLatLong.length);
+// fs.writeFileSync('groupsAddLL06.txt', JSON.stringify(addressesWithLatLong));
+
+//  ////////////////
+
+//  ///////// 44  AREA CODE 7  groups7.txt 
+// var addresses = JSON.parse(fs.readFileSync("/home/ubuntu/workspace/groups7.txt"));
+
+// var addLatLong =   JSON.parse(fs.readFileSync("/home/ubuntu/workspace/groups07latLg.txt"));
+
+// var addressesWithLatLong = [];
+
+// for (var i=0; i < addresses.length; i++) {
+//     var thisObject = new Object({location}); 
+//   var location = new Object();
+//     thisObject.address2 = addresses[i].address2;
+//     thisObject.address = addresses[i].address1;
+//     thisObject.name = addresses[i].name;
+//     thisObject.building = addresses[i].building;
+//     thisObject.day = addresses[i].day;
+//     thisObject.startTime = addresses[i].startTime;
+//     thisObject.endTime = addresses[i].endTime;
+//     thisObject.meetingType = addresses[i].meetingType;
+//     thisObject.specialInterest = addresses[i].specialInterest;
+//     thisObject.notes = addresses[i].notes;
+//     thisObject.access = addresses[i].access;
+    
+//     addressesWithLatLong.push(thisObject);
+    
+//     location.latLong = addLatLong[i].latLong;
+//     location.address2 = addLatLong[i].address2;
+    
+//     thisObject.location = location.latLong;
+//      thisObject.location.address2 = location.address2;
+    
+// }
+
+
+// console.log(addressesWithLatLong);
+// console.log(addressesWithLatLong.length);
+// fs.writeFileSync('groupsAddLL07.txt', JSON.stringify(addressesWithLatLong));
+
+//  ////////////////
+
+//  ///////// 44  AREA CODE 8  groups8.txt 
+// var addresses = JSON.parse(fs.readFileSync("/home/ubuntu/workspace/groups8.txt"));
+
+// var addLatLong =   JSON.parse(fs.readFileSync("/home/ubuntu/workspace/groups10latLg.txt"));
+
+// var addressesWithLatLong = [];
+
+// for (var i=0; i < addresses.length; i++) {
+//     var thisObject = new Object({location}); 
+//   var location = new Object();
+//     thisObject.address2 = addresses[i].address2;
+//     thisObject.address = addresses[i].address1;
+//     thisObject.name = addresses[i].name;
+//     thisObject.building = addresses[i].building;
+//     thisObject.day = addresses[i].day;
+//     thisObject.startTime = addresses[i].startTime;
+//     thisObject.endTime = addresses[i].endTime;
+//     thisObject.meetingType = addresses[i].meetingType;
+//     thisObject.specialInterest = addresses[i].specialInterest;
+//     thisObject.notes = addresses[i].notes;
+//     thisObject.access = addresses[i].access;
+    
+//     addressesWithLatLong.push(thisObject);
+    
+//     location.latLong = addLatLong[i].latLong;
+//     location.address2 = addLatLong[i].address2;
+    
+//     thisObject.location = location.latLong;
+//      thisObject.location.address2 = location.address2;
+    
+// }
+
+
+// console.log(addressesWithLatLong);
+// console.log(addressesWithLatLong.length);
+// fs.writeFileSync('groupsAddLL08.txt', JSON.stringify(addressesWithLatLong));
+
+//  ////////////////
+
+//  ///////// 44  AREA CODE 9  groups9.txt 
+// var addresses = JSON.parse(fs.readFileSync("/home/ubuntu/workspace/groups9.txt"));
+
+// var addLatLong =   JSON.parse(fs.readFileSync("/home/ubuntu/workspace/groups09latLg.txt"));
+
+// var addressesWithLatLong = [];
+
+// for (var i=0; i < addresses.length; i++) {
+//     var thisObject = new Object({location}); 
+//   var location = new Object();
+//     thisObject.address2 = addresses[i].address2;
+//     thisObject.address = addresses[i].address1;
+//     thisObject.name = addresses[i].name;
+//     thisObject.building = addresses[i].building;
+//     thisObject.day = addresses[i].day;
+//     thisObject.startTime = addresses[i].startTime;
+//     thisObject.endTime = addresses[i].endTime;
+//     thisObject.meetingType = addresses[i].meetingType;
+//     thisObject.specialInterest = addresses[i].specialInterest;
+//     thisObject.notes = addresses[i].notes;
+//     thisObject.access = addresses[i].access;
+    
+//     addressesWithLatLong.push(thisObject);
+    
+//     location.latLong = addLatLong[i].latLong;
+//     location.address2 = addLatLong[i].address2;
+    
+//     thisObject.location = location.latLong;
+//      thisObject.location.address2 = location.address2;
+    
+// }
+
+
+// console.log(addressesWithLatLong);
+// console.log(addressesWithLatLong.length);
+// fs.writeFileSync('groupsAddLL09.txt', JSON.stringify(addressesWithLatLong));
+
+//  ////////////////
+
+//  ///////// 44
+// var addresses = JSON.parse(fs.readFileSync("/home/ubuntu/workspace/groups10.txt"));
+
+// var addLatLong =   JSON.parse(fs.readFileSync("/home/ubuntu/workspace/groups10latLg.txt"));
+
+// var addressesWithLatLong = [];
+
+// for (var i=0; i < addresses.length; i++) {
+//     var thisObject = new Object({location}); 
+//   var location = new Object();
+//     thisObject.address2 = addresses[i].address2;
+//     thisObject.address = addresses[i].address1;
+//     thisObject.name = addresses[i].name;
+//     thisObject.building = addresses[i].building;
+//     thisObject.day = addresses[i].day;
+//     thisObject.startTime = addresses[i].startTime;
+//     thisObject.endTime = addresses[i].endTime;
+//     thisObject.meetingType = addresses[i].meetingType;
+//     thisObject.specialInterest = addresses[i].specialInterest;
+//     thisObject.notes = addresses[i].notes;
+//     thisObject.access = addresses[i].access;
+    
+//     addressesWithLatLong.push(thisObject);
+    
+//     location.latLong = addLatLong[i].latLong;
+//     location.address2 = addLatLong[i].address2;
+    
+//     thisObject.location = location.latLong;
+//      thisObject.location.address2 = location.address2;
+    
+// }
+
+
+// console.log(addressesWithLatLong);
+// console.log(addressesWithLatLong.length);
+// fs.writeFileSync('groupsAddLL10.txt', JSON.stringify(addressesWithLatLong));
+
+//  ////////////////
+
+
+
+//  ///////// 44
+// var addresses = JSON.parse(fs.readFileSync("/home/ubuntu/workspace/groups10.txt"));
+
+// var addLatLong =   JSON.parse(fs.readFileSync("/home/ubuntu/workspace/groups10latLg.txt"));
+
+// var addressesWithLatLong = [];
+
+// for (var i=0; i < addresses.length; i++) {
+//     var thisObject = new Object({location}); 
+//   var location = new Object();
+//     thisObject.address2 = addresses[i].address2;
+//     thisObject.address = addresses[i].address1;
+//     thisObject.name = addresses[i].name;
+//     thisObject.building = addresses[i].building;
+//     thisObject.day = addresses[i].day;
+//     thisObject.startTime = addresses[i].startTime;
+//     thisObject.endTime = addresses[i].endTime;
+//     thisObject.meetingType = addresses[i].meetingType;
+//     thisObject.specialInterest = addresses[i].specialInterest;
+//     thisObject.notes = addresses[i].notes;
+//     thisObject.access = addresses[i].access;
+    
+//     addressesWithLatLong.push(thisObject);
+    
+//     location.latLong = addLatLong[i].latLong;
+//     location.address2 = addLatLong[i].address2;
+    
+//     thisObject.location = location.latLong;
+//      thisObject.location.address2 = location.address2;
+    
+// }
+
+
+// console.log(addressesWithLatLong);
+// console.log(addressesWithLatLong.length);
+// fs.writeFileSync('groupsAddLL10.txt', JSON.stringify(addressesWithLatLong));
 
  ////////////////
 
