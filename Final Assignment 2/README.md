@@ -31,18 +31,16 @@ The aim was to plot light against time of day for each window. <br>
 Light levels were checked against readings and grouped into brightness in order to understand the data more quickly and to provide a color code for plotting. The idea was to plot this 12 hour data on a circle to easily show the relation of light to time of day.<br>
 Light level groupings:
 <ul>
-   <li>very bright</li>
-   <li>bright</li>
-   <li>light</li>
-   <li>dim</li>
-   <li>very dim</li>
-   <li>dusk</li>
-   <li>nearly dark</li>
-   <li>night</li>
+   <li>very bright: greater than 950</li>
+   <li>brightk: between 800 and 950</li>
+   <li>lightk: between 650 and 800</li>
+   <li>dimk: between 500 and 650</li>
+   <li>very dimk: between 350 and 500</li>
+   <li>duskk: between  200 and 350</li>
+   <li>nearly dark: between 50 and 200</li>
+   <li>night: less than 50</li>
  </ul>
-<br>
-
-very bright; bright; light; dim; very dim; dusk; nearly dark; night.  </H6>
+</H6>
 </p>
 <br>
 
