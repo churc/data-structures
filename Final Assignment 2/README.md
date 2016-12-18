@@ -9,8 +9,8 @@
 <H6>2 photoresistors</H6>
 
 <p align="center">
-![Readings](https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/PhotocellReadings.jpg "Readings")</p>
-<H6>Readings</H6>
+![Readings](https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/PhotocellReadings.jpg "Readings")
+<H6>Readings</H6></p>
 
 ![SQL query on AWS database](https://github.com/churc/data-structures/blob/master/homework10_churc/Photocell/Screen%20Shot%202016-12-11%20at%203.31.20%20AM.png "SQL query on AWS database")
 <H6>SQL query on AWS database</H6>
