@@ -8,11 +8,11 @@ URL: https://class10-churc.c9users.io/ - screenshots below. <br>
 The aim was to record light change over the course of the day on 2 windowsills to find the optimal light/placing for edible plants. The project was inspired by attempts to grow plants at home with a new building going up across the street blocking out direct sunlight for part of the day.<br>
 Questions:
 <ul>
-   <li>1.	what times of day do the plants get light?</li>
-   <li>2.	when there is sunlight is the reading bright or very bright?</li>
-   <li>3.	what is the light reading when the sun is blocked out by buildings?</li>
-   <li>4.	which windowsill is brighter / can both windowsills be used for growing plants?</li>
-   <li>5.	overall assessment of light during the day - is there enough light to grow edible plants indoors?</li>
+   <li>what times of day do the plants get light?</li>
+   <li>when there is sunlight is the reading bright or very bright?</li>
+   <li>what is the light reading when the sun is blocked out by buildings?</li>
+   <li>which windowsill is brighter / can both windowsills be used for growing plants?</li>
+   <li>overall assessment of light during the day - is there enough light to grow edible plants indoors?</li>
  </ul>
 <br>
 
