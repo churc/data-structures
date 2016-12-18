@@ -9,8 +9,8 @@ The aim was to record light change over the course of the day on 2 windowsills t
 Questions:
 <ul>
    <li>what times of day do the plants get light?</li>
-   <li>when there is sunlight is the reading bright or very bright?</li>
-   <li>what is the light reading when the sun is blocked out by buildings?</li>
+   <li>which windowsill is brighter / can both windowsills be used for growing plants?</li>
+   <li>what is the highest reading?</li>
    <li>which windowsill is brighter / can both windowsills be used for growing plants?</li>
    <li>overall assessment of light during the day - is there enough light to grow edible plants indoors?</li>
  </ul>
