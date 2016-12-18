@@ -12,7 +12,7 @@
 
 <p align="center">
 <img src= https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/PhotocellReadings.jpg> 
-<H6>Readings</H6>
+<H6 align="center">Readings</H6>
 </p>
 
 <p align="center">
