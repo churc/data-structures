@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-<img src= https://github.com/churc/data-structures/blob/master/homework10_churc/Photocell/Screen%20Shot%202016-12-11%20at%203.31.20%20AM.png>
+<img src= https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Screen%20Shot%202016-12-11%20at%203.31.20%20AM_query.png>
 <H6 align="center">SQL query on AWS database</H6>
 </p>
 
