@@ -49,7 +49,7 @@ Light level groupings:
 
 <p align="center">
 <img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Photocell1_1.jpg>    <img src= https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Screen%20Shot%202016-12-11%20at%203.31.20%20AM_query.png> 
-<H6 H6 align="center">Photoresistor 1 and readings from both windows</H6>
+<H6 H6 align="center">Photoresistor 1 and SQL query on AWS database</H6>
 </p>
 <br>
 <p></p>
