@@ -45,8 +45,12 @@ Light level groupings:
 <img src= https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/PhotocellReadings.jpg> 
 <H6 align="center">Readings</H6>
 </p>
-<H6>Example of SQL query on AWS database (see queryLightAWS3.js/class10 c9). This queries readings on Dec. 5th, from 6.30am - 6.30pm which are between 800 and 950 and assigns them as bright:<br>
-<i>var queryBright = "SELECT windowNo, reading, EXTRACT(HOUR from dateCreated) as hr, EXTRACT(MINUTE from dateCreated) as min  FROM lightP AS bt WHERE dateCreated &gt;'2016-12-05 11:30:00' AND dateCreated &lt;'2016-12-05 23:30:00' AND reading &gt; 800 AND reading &lt; 950 ORDER BY dateCreated;"; </i></H6>
+<H6>Examples of SQL query on AWS database (see queryLightAWS3.js/class10 c9). <br>
+This queries readings on Dec. 5th, from 6.30am - 6.30pm which are between 800 and 950 and assigns them as bright:<br>
+<i>var queryBright = "SELECT windowNo, reading, EXTRACT(HOUR from dateCreated) as hr, EXTRACT(MINUTE from dateCreated) as min  FROM lightP AS bt WHERE dateCreated &gt;'2016-12-05 11:30:00' AND dateCreated &lt;'2016-12-05 23:30:00' AND reading &gt; 800 AND reading &lt; 950 ORDER BY dateCreated;"; </i><br>
+This queries readings on December 7, simplifies the date time stamp into hours and mins (UTC) and orders by reading:<br>
+<i>var queryLong2 = "SELECT windowNo, reading, EXTRACT(HOUR from dateCreated) as hr, EXTRACT(MINUTE from dateCreated) as min FROM lightP AS long2 WHERE dateCreated &gt; '2016-12-07 11:30:00' AND dateCreated &lt;'2016-12-07 23:30:00' AND reading &lt; 1100 ORDER BY reading;";</i>
+</H6>
 <p align="center">
 <img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Photocell1_1.jpg>    <img src= https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Screen%20Shot%202016-12-11%20at%203.31.20%20AM_query.png> 
 <H6 H6 align="center">Photoresistor 1 and SQL query on AWS database</H6>
