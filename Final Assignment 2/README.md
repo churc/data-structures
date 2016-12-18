@@ -24,10 +24,28 @@ Questions:
 <br>
 <p align="center">
 <img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Photocell1_2.jpg>
-<H6 H6 align="center">2 photoresistors and SQL query on AWS database</H6>
+<H6 H6 align="center">2 photoresistors</H6>
+<H6>Data collection: <br>
+Data was collected from 2 windows during daylight hours (6.30am – 6.30pm) over 3 days (to check weather differences across days) using two arduino breadboards and two photocell sensors. Data was streamed to AWS RDS for light reading and time of reading with a 20000 delay.<br>
+The aim was to plot light against time of day for each window. <br>
+Light levels were checked against readings and grouped into brightness in order to understand the data more quickly and to provide a color code for plotting. The idea was to plot this 12 hour data on a circle to easily show the relation of light to time of day.<br>
+Light level groupings:
+<ul>
+   <li>very bright</li>
+   <li>bright</li>
+   <li>light</li>
+   <li>dim</li>
+   <li>very dim</li>
+   <li>dusk</li>
+   <li>nearly dark</li>
+   <li>night</li>
+ </ul>
+<br>
+
+very bright; bright; light; dim; very dim; dusk; nearly dark; night.  </H6>
 </p>
 <br>
-</p>
+
 <p align="center">
 <img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Photocell1_1.jpg>    <img src= https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Screen%20Shot%202016-12-11%20at%203.31.20%20AM_query.png> 
 <H6 H6 align="center">Photoresistor 1 and readings</H6>
