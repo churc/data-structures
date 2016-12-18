@@ -7,8 +7,7 @@
 <H6 H6 align="center">Windows 1 and 2</H6>
 </p>
 <p align="center">
-<img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/IMG_3772window2.jpg>
-<H6 H6 align="center">Window 1</H6>
+
 </p>
 <p align="center">
 <img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Photocell1_1.jpg><img src= https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/PhotocellReadings.jpg> 
