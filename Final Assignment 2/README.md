@@ -11,7 +11,7 @@
 <img src=https://github.com/churc/data-structures/blob/master/homework10_churc/Photocell/Photocell1_2.jpg>
 <H6 H6 align="center">2 photoresistors</H6>
 </p>
-
+<b></b>
 <p align="center">
 <img src= https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/PhotocellReadings.jpg> 
 <H6 align="center">Readings</H6>
