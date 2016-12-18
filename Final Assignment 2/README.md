@@ -23,7 +23,7 @@ Questions:
 <p align="center">
 <br>
 <p align="center">
-<img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Photocell1_2.jpg>
+<img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Photocell1_2_2.jpg>
 <H6 H6 align="center">2 photoresistors</H6>
 <H6>Data collection: <br>
 Data was collected from 2 windows during daylight hours (6.30am – 6.30pm) over 3 days (to check weather differences across days) using two arduino breadboards and two photocell sensors. Data was streamed to AWS RDS for light reading and time of reading with a 20000 delay.<br>
@@ -42,7 +42,10 @@ Light level groupings:
  </ul>
 </H6>
 </p>
-<br>
+<p align="center">
+<img src= https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/PhotocellReadings.jpg> 
+<H6 align="center">Readings</H6>
+</p>
 
 <p align="center">
 <img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Photocell1_1.jpg>    <img src= https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Screen%20Shot%202016-12-11%20at%203.31.20%20AM_query.png> 
@@ -50,10 +53,7 @@ Light level groupings:
 </p>
 <br>
 <p></p>
-<p align="center">
-<img src= https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/PhotocellReadings.jpg> 
-<H6 align="center">Readings</H6>
-</p>
+
 <br>
 <p align="center">
 
