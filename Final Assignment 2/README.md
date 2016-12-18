@@ -3,10 +3,10 @@
 <H5> Light readings are in GMT (UTC): 6.30am - 6.30p EST is 11.30 - 23.30 GMT</H5>
 
 <p align="center">
-<img src=https://github.com/churc/data-structures/blob/master/homework10_churc/Photocell/Photocell1_1.jpg>
+<img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Photocell1_1.jpg>
 <H6 H6 align="center">Photoresistor 1</H6>
 </p>
-
+<br></br>
 <p align="center">
 <img src=https://github.com/churc/data-structures/blob/master/homework10_churc/Photocell/Photocell1_2.jpg>
 <H6 H6 align="center">2 photoresistors</H6>
