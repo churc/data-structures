@@ -47,8 +47,8 @@ Light level groupings:
 </p>
 <H6>Examples of SQL query on AWS database (see queryLightAWS3.js/class10 c9). <br>
 This queries readings on Dec. 5th, from 6.30am - 6.30pm which are between 800 and 950 and assigns them as bright:<br>
-<i>var queryBright = "SELECT windowNo, reading, EXTRACT(HOUR from dateCreated) as hr, EXTRACT(MINUTE from dateCreated) as min  FROM lightP AS bt WHERE dateCreated &gt;'2016-12-05 11:30:00' AND dateCreated &lt;'2016-12-05 23:30:00' AND reading &gt; 800 AND reading &lt; 950 ORDER BY dateCreated;"; </i><br>
-This queries readings on December 7, simplifies the date time stamp into hours and mins (UTC) and orders by reading:<br>
+<i>var queryBright = "SELECT windowNo, reading, EXTRACT(HOUR from dateCreated) as hr, EXTRACT(MINUTE from dateCreated) as min  FROM lightP AS bt WHERE dateCreated &gt;'2016-12-05 11:30:00' AND dateCreated &lt;'2016-12-05 23:30:00' AND reading &gt; 800 AND reading &lt; 950 ORDER BY dateCreated;"; </i><br></H6>
+<H6>This queries readings on December 7, simplifies the date time stamp into hours and mins (UTC) and orders by reading:<br>
 <i>var queryLong2 = "SELECT windowNo, reading, EXTRACT(HOUR from dateCreated) as hr, EXTRACT(MINUTE from dateCreated) as min FROM lightP AS long2 WHERE dateCreated &gt; '2016-12-07 11:30:00' AND dateCreated &lt;'2016-12-07 23:30:00' AND reading &lt; 1100 ORDER BY reading;";</i>
 </H6>
 <p align="center">
