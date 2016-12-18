@@ -7,17 +7,18 @@
 <H6 H6 align="center">Windows 1 and 2</H6>
 </p>
 <p align="center">
+<br>
+<p align="center">
+<img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Photocell1_2.jpg>
+<H6 H6 align="center">2 photoresistors</H6>
+</p>
 
 </p>
 <p align="center">
 <img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Photocell1_1.jpg>    <img src= https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Screen%20Shot%202016-12-11%20at%203.31.20%20AM_query.png> 
 <H6 H6 align="center">Photoresistor 1 and readings</H6>
 </p>
-<br></br>
-<p align="center">
-<img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Photocell1_2.jpg>
-<H6 H6 align="center">2 photoresistors</H6>
-</p>
+
 <p></p>
 <p align="center">
 <img src= https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/PhotocellReadings.jpg> 
