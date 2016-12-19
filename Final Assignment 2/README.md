@@ -1,5 +1,5 @@
 <H3> Writing Arduino board photocell sensor readings to AWS db (PostreSQL, RDS) and querying the database</H3>
-<H4> Photoresistors reading light on 2 window sills for 12 hours / Arduino / Johnny-Five / AWS RDS</H4>
+<H4> Photoresistors reading light on 2 windowsills for 12 hours / Arduino / Johnny-Five / AWS RDS</H4>
 <H5> Light readings are in GMT (UTC): 6.30am - 6.30p EST is 11.30 - 23.30 GMT</H5>
 <H6>Arduino photocell sensor light readings (AWS RDS, sublime text, terminal. Query in node):
 appLight.js / sublime text: inserts photocell sensor readings into AWS table, lightP. (window number, light reading, time).
