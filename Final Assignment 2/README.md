@@ -76,8 +76,8 @@ Light level groupings:
 
 <H6>Query running on cloud 9 (https://class10-churc.c9users.io/) - Dec. 7th 'very dim' group readings between 350 and 500 for each window and order by time. Group 'dim' readings between 500 and 650 for each window and order by time.</H6>
 <p align="center">
-<img src=>
-<H6 align="center">Sketch of readings in 12 hour time circle. Colors are grouped by light reading. Note this is a sketch from r</H6>
+<img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Screen%20Shot%202016-12-18%20at%2010.17.58%20PM_query.png>
+<H6 align="center">cloud9 query</H6>
 </p>
 
 <p align="center">
