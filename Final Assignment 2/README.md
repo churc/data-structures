@@ -17,7 +17,7 @@ Questions:
 
 <p align="center", margin-bottom="0px">
 <img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/IMG_3776window1.jpg>    <img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/IMG_3772window2.jpg>
-<H6 style="align:center; margin-top:0px; border-top:0px">Windows 1 and 2</H6>
+<H6 align="center", margin-top="0px", border-top="0px">Windows 1 and 2</H6>
 </p>
 <p align="center">
 <br>
