@@ -75,6 +75,6 @@ Light level groupings:
 </p>
 
 <p align="center">
-<img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Screen%20Shot%202016-12-18%20at%207.47.06%20PM.png>
+<img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Screen%20Shot%202016-12-18%20at%207.57.53%20PM_sketch.png>
 <H6 align="center">Sketch of readings in 12 hour time circle. Colors are grouped by light reading. Note this is a sketch from r</H6>
 </p>
