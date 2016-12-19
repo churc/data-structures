@@ -16,4 +16,4 @@
 <i>AqueryMongo.js/homework 1</i>: aggregates MongoDB documents and returns query into server.js.</p><br>
 <p>
 URL: https://homework1-churc.c9users.io/</H6></p><br>
-![](https://github.com/churc/data-structures/blob/master/Final%20Assignment%201/Screen%20Shot%202016-12-18%20at%202.14.02%20AM_fullInfo.png)<br>
+<H6 align = "center"> ![](https://github.com/churc/data-structures/blob/master/Final%20Assignment%201/Screen%20Shot%202016-12-18%20at%202.14.02%20AM_fullInfo.png)</H6><br>
