@@ -3,7 +3,7 @@
 <H5> Light readings are in GMT (UTC): 6.30am - 6.30p EST is 11.30 - 23.30 GMT</H5>
 <H6>Arduino photocell sensor light readings (AWS RDS, sublime text, terminal. Query in node):
 appLight.js / sublime text: inserts photocell sensor readings into AWS table, lightP. (window number, light reading, time).
-queryLightAWS3.js / class 10: queries RDS db and returns query into server.js
+queryLightAWS3.js / class 10: queries RDS db and returns query into server.js. <br>
 URL: https://class10-churc.c9users.io/ - screenshots below. <br>
 The aim was to record light change over the course of the day on 2 windowsills to find the optimal light/placing for edible plants. The project was inspired by attempts to grow plants at home with a new building going up across the street blocking out direct sunlight for part of the day.<br>
 Questions:
@@ -56,18 +56,13 @@ Light level groupings:
 <li>This queries readings on Dec. 5th, simplifies the date time stamp into hours and mins (UTC) and orders by time to find times when windowsills are getting good light:<br>
 <i>var queryLong3 = "SELECT windowNo, reading, EXTRACT(HOUR from dateCreated) as hr, EXTRACT(MINUTE from dateCreated) as min FROM lightP AS long3 WHERE dateCreated &gt;'2016-12-05 11:30:00' AND dateCreated &lt;'2016-12-05 23:30:00' AND windowNo = '2' AND reading &gt;650 ORDER BY hr;";</i></li><br>
 
-
 <p align="center">
 <img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Photocell1_1.jpg>    <img src= https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Screen%20Shot%202016-12-11%20at%203.31.20%20AM_query.png> 
 <H6 H6 align="center">Photoresistor 1 and SQL query on AWS database</H6>
 </p>
 <br>
 <p></p>
-
 <br>
-<p align="center">
-
-</p>
 
 <p align="center">
 <img src= https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Screen%20Shot%202016-12-11%20at%203.31.14%20AM_query.png>
@@ -76,5 +71,16 @@ Light level groupings:
 
 <p align="center">
 <img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Screen%20Shot%202016-12-18%20at%207.57.53%20PM_sketch.png>
+<H6 align="center">Sketch of readings in 12 hour time circle. Colors are grouped by light reading. Note this is a sketch from r</H6>
+</p>
+
+<H6>Query running on cloud 9 (https://class10-churc.c9users.io/) - Dec. 7th 'very dim' group readings between 350 and 500 for each window and order by time. Group 'dim' readings between 500 and 650 for each window and order by time.</H6>
+<p align="center">
+<img src=>
+<H6 align="center">Sketch of readings in 12 hour time circle. Colors are grouped by light reading. Note this is a sketch from r</H6>
+</p>
+
+<p align="center">
+<img src=>
 <H6 align="center">Sketch of readings in 12 hour time circle. Colors are grouped by light reading. Note this is a sketch from r</H6>
 </p>
