@@ -1,4 +1,7 @@
-AA map data (Mongo, node), working with Manhattan area codes 1 - 10:
+<H3> Cleaning meeting information for Manhattan zones 1 - 10, storing with geocodes in MongoDB (NoSQL) and querying the database</H3>
+<H5> Connect MongoDB query output to Google Maps API to show upcoming meetings in local area</H5>
+
+<H6>AA map data (MongoDB, node), working with Manhattan zones 1 - 10:<br>
 
 apped4_ah.js / class 3: takes all information from 01.txt - 10.txt files (/home/ubuntu/workspace/zipData/01.txt - /10.txt) and saves in ten new files (raw_groups1.txt - /10.txt).
 
@@ -8,8 +11,8 @@ class3geo.js / class 3: This takes text files from clean_apped4_ah2.js and gets 
 
 clean_apped8_ah2.js / class 3: takes ten text files (groupslatLg1.txt - /10.txt) and ten text files (groups1.txt - /10.txt) and joins these into ten text files (groupsAddLL01 - /10.txt).
 
-clean_apped6_ah.js / homework 1: inserts the ten groupsAddLL01 - /10.txt files into MONGO DB.
+clean_apped6_ah.js / homework 1: inserts the ten groupsAddLL01 - /10.txt files into MongoDB.
 
 AqueryMongo.js / homework 1: aggregates Mongo db documents and returns query into server.js
 
-URL: https://homework1-churc.c9users.io/ and see screenshot
+URL: https://homework1-churc.c9users.io/ and see screenshot</H6>
