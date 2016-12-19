@@ -13,6 +13,6 @@
 
 <i>clean_apped6_ah.js/homework 1</i>: inserts the ten groupsAddLL01 - /10.txt files into MongoDB.<br>
 
-<i>AqueryMongo.js/homework 1</i>: aggregates Mongo db documents and returns query into server.js.<br>
+<i>AqueryMongo.js/homework 1</i>: aggregates MongoDB documents and returns query into server.js.<br>
 
 URL: https://homework1-churc.c9users.io/ and see screenshot</H6>
