@@ -81,6 +81,6 @@ Light level groupings:
 </p>
 
 <p align="center">
-<img src=>
-<H6 align="center">Sketch of readings in 12 hour time circle. Colors are grouped by light reading. Note this is a sketch from r</H6>
+<img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Screen%20Shot%202016-12-18%20at%2010.17.21%20PM_apiQuery.png>
+<H6 align="center">cloud9 array of results of 'very dim', 'dim' query above</H6>
 </p>
