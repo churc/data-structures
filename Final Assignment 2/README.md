@@ -75,10 +75,10 @@ Light levels were checked against readings and grouped into brightness in order 
 </p><br>
 <p align="center">
 <img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Screen%20Shot%202016-12-19%20at%2010.21.46%20PM.png>
-<H6 align="center">Sketch of readings in 12 hour time circle. Colors are grouped by light reading. Note this is a sketch from r</H6>
+<H6 align="center">Sketch to show 12-hour time circle. Note this is a mockup in r</H6>
 </p><br>
 
-<H6>Query running on cloud 9 (https://class10-churc.c9users.io/) - Dec. 7th 'very dim' group readings between 350 and 500 for each window and order by time. Group 'dim' readings between 500 and 650 for each window and order by time.</H6>
+<H6>Query running on cloud 9 (https://class10-churc.c9users.io/) - Dec. 7th 'very dim' group readings between 350 and 500 for each window and order by time. Group 'dim' readings between 500 and 650 for each window and order by time</H6>
 <p align="center">
 <img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Screen%20Shot%202016-12-18%20at%2010.17.58%20PM_query.png>
 <H6 align="center">cloud9 query</H6>
@@ -87,4 +87,11 @@ Light levels were checked against readings and grouped into brightness in order 
 <p align="center">
 <img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Screen%20Shot%202016-12-18%20at%2010.17.21%20PM_apiQuery.png>
 <H6 align="center">cloud9 array of results of 'very dim', 'dim' query above</H6>
+</p><br>
+
+<p align="center">
+<img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Sketch_lines_photocell.png>
+<H6 align="center">Second sketch of 12-hour circle, using lines from center. This is drawn onto a sketch from r</H6>
 </p>
+
+
