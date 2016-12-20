@@ -27,7 +27,7 @@ Questions:
 <H5>Data collection: </H5>
 <H6>Data was collected from 2 windows during daylight hours (6.30am – 6.30pm) over 3 days (to check weather differences across days) using two arduino breadboards and two photocell sensors. Data was streamed to AWS RDS for light reading and time of reading with a 120000 delay.<br>
 The aim was to plot light against time of day for each window. 
-Light levels were checked against readings and grouped into brightness in order to understand the data more quickly and to provide a color code for plotting. The idea was to plot 12 hour data on a circle to easily show the relation of light to time of day.</H6><br>
+Light levels were checked against readings and grouped into brightness in order to understand the data more quickly and to provide a color code for plotting. The idea was to plot 12 hour data on a circle to easily show the relation of light to time of day.</H6>
 <H5>Light level groupings:</H5>
 <H6><ul>
    <li>very bright: greater than 950</li>
@@ -67,15 +67,15 @@ Light levels were checked against readings and grouped into brightness in order 
 <p align="center">
 <img src= https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Screen%20Shot%202016-12-11%20at%203.31.14%20AM_query.png>
 <H6 align="center">SQL query on AWS database</H6>
-</p><br>
+</p><br><br>
 
 <p align="center">
 <img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Screen%20Shot%202016-12-18%20at%2011.47.08%20PM_grpQuery.png>
 <H6 align="center">SQL queries to group readings by light level - color and plot in 12 hour time circle</H6>
-</p><br>
+</p><br><br>
 <p align="center">
 <img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Sketch.png>
-<H6 align="center">Sketch to show 12-hour time circle. Note this is a mockup in r</H6>
+<H6 align="center">12-hour time circle sketch in r - not actual data</H6>
 </p><br>
 
 <H6>Query running on cloud 9 (https://class10-churc.c9users.io/) - Dec. 7th 'very dim' group readings between 350 and 500 for each window and order by time. Group 'dim' readings between 500 and 650 for each window and order by time</H6>
