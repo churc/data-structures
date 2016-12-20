@@ -40,7 +40,7 @@ Light levels were checked against readings and grouped into brightness in order 
    <li>night: less than 50</li>
  </ul>
 </H6>
-</p><br>
+</p>
 <p align="center">
 <img src= https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/PhotocellReadings.jpg> 
 <H6 align="center">Readings</H6>
@@ -74,7 +74,7 @@ Light levels were checked against readings and grouped into brightness in order 
 <H6 align="center">SQL queries to group readings by light level - color and plot in 12 hour time circle</H6>
 </p><br>
 <p align="center">
-<img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Screen%20Shot%202016-12-19%20at%2010.21.46%20PM.png>
+<img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Sketch.png>
 <H6 align="center">Sketch to show 12-hour time circle. Note this is a mockup in r</H6>
 </p><br>
 
