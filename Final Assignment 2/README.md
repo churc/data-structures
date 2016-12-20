@@ -94,4 +94,3 @@ Light levels were checked against readings and grouped into brightness in order 
 <H6 align="center">Second sketch of 12-hour circle, using lines from center. This is drawn onto a sketch from r</H6>
 </p>
 
-
