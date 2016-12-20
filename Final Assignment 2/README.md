@@ -74,7 +74,7 @@ Light levels were checked against readings and grouped into brightness in order 
 <H6 align="center">SQL queries to group readings by light level - color and plot in 12 hour time circle</H6>
 </p><br><br>
 <p align="center">
-<img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Sketch2.png>
+<img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%202/Sketch.png>
 <H6 align="center">12-hour time circle sketch in r - not actual data</H6>
 </p><br>
 
