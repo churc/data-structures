@@ -22,8 +22,10 @@ Next steps are to check that the meeting query is working correctly so that ther
 <p>
 <i>clean_apped6_ah.js/ homework 1</i>: inserts the ten groupsAddLL01 - /10.txt files into MongoDB.</p>
 <br>
-<p>
-<H6 align ="center"> <img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%201/Screen%20Shot%202016-12-21%20at%204.17.20%20PM_mtgs.png>Number of meetings in each Manhattan zone<br>
+
+<H6 align ="center"> <img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%201/Screen%20Shot%202016-12-21%20at%204.17.20%20PM_mtgs.png>
+<br>Number of meetings in each Manhattan zone<br></H6>
+
 <p><i>AqueryMongo.js/ homework 1</i>: aggregates MongoDB documents and returns query into server.js.</p>
 <br>
 <p><H6>
