@@ -6,7 +6,9 @@
 <i>apped1.js/ class 3</i>: scrapes AA meeting html Manhattan zones 1 - 10 and saves in 01.txt - 10.txt files (/home/ubuntu/workspace/zipData/01.txt - /10.txt).</p><br>
 <p>
 <p>
-<i>apped4_ah.js/ class 3</i>: takes all information from 01.txt - 10.txt files (/home/ubuntu/workspace/zipData/01.txt - /10.txt) and saves in ten new files (raw_groups1.txt - /10.txt).</p><br>
+<i>apped4_ah.js/ class 3</i>: takes all information from 01.txt - 10.txt files (/home/ubuntu/workspace/zipData/01.txt - /10.txt) and saves in ten new files (raw_groups1.txt - /10.txt).</p>
+<br>
+<b>
 
 ```
 var fs = require('fs');
@@ -61,7 +63,8 @@ $('tbody').find('tr').each(function(i, elem) {
  console.log(groups);
  console.log(groups.length);
 fs.writeFileSync('/home/ubuntu/workspace/raw_groups1.txt', JSON.stringify(groups));
-```
+
+</b>```
 <br>
 <p>
 <i>clean_apped4_ah2.js/class 3</i>: This takes apped4_ah.js and cleans data up for AA areas 1 to 10 (Manhattan). Saved in ten text files (groups1.txt - /10.txt).</p>
