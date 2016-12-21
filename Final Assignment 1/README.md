@@ -8,7 +8,7 @@
 <i>apped4_ah.js/ class 3</i>: takes all information from 01.txt - 10.txt files (/home/ubuntu/workspace/zipData/01.txt - /10.txt) and saves in ten new files (raw_groups1.txt - /10.txt).</p>
 ```var fs = require('fs');```
 <p>
-```var fs = require('fs');
+```.javascript var fs = require('fs');
 var cheerio = require('cheerio'); // npm install cheerio
 //FOR TXT FILE 1
 var content = fs.readFileSync('/home/ubuntu/workspace/zipData/01.txt');
