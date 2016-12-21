@@ -13,8 +13,6 @@
 ```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
-/////TAKES EACH BlDG, NAME, DAY, MTG TYPE etc AND PARSES IT INTO RAW DATA FILE
-///SEE clean_apped4_ah2.js TO CLEAN UP LINES, DO 24 HRS AND TO GO INTO MONGO DB
 var fs = require('fs');
 var cheerio = require('cheerio'); // npm install cheerio
 ///////FOR TXT FILE 1
@@ -29,8 +27,7 @@ $('tbody').find('tr').each(function(i, elem) {
     thisMeeting.name = $(elem).find('td').find('b').eq(0).text().replace(/\s+/g, " ").split('-')[0].trim();
 //////////ADDRESS CLEAN - TO FIRST COMMA, THEN ADD NY NY
     var addressx = $(elem).find('td').eq(0).html().split('<br>')[2].trim().split(',')[0].split('-')[0].trim();
-    thisMeeting.address1 = addressx.concat(", New York, NY");
-    
+    thisMeeting.address1 = addressx.concat(", New York, NY");    
     if (thisMeeting.address1 === "283 W. Broadway, New York, NY") {
         thisMeeting.address1 = "283 West Broadway, New York, NY";
     }
@@ -40,7 +37,6 @@ $('tbody').find('tr').each(function(i, elem) {
      thisMeeting.address2 = thisMeeting.address1.substring().split(' ').join('+');
 /////// NOTES BOX
      thisMeeting.notes = ($(elem).find('td').find('div').eq(0).text().trim().replace(/'<br>'/g, ",").trim().replace(/[*]/g, "").trim().replace(/=/g, ""));
-
     if (thisMeeting.notes === "@Duane and Centre behind Federal courthouse enter thru driveway behind Church No meetings on Holidays") {
       thisMeeting.notes = "@ Duane and Centre behind Federal Courthouse. Enter thru driveway behind Church. No meetings on Holidays"; 
     }
