@@ -1,6 +1,8 @@
-<p>Note that the map markers are not showing. The MongoDB query does run - see c9/ AqueryMongo.js / homework1 https://ide.c9.io/churc/homework1 and in https://github.com/churc/data-structures/FinalAssignment1 <br>
+<p>Update note on status of project: The MongoDB query runs - see c9/ AqueryMongo.js / homework1 https://ide.c9.io/churc/homework1 and in https://github.com/churc/data-structures/FinalAssignment1 <br>
 The 10 Manhattan zones have the correct number of meetings.<br>
-8 of the 10 zone files have lat long and are in the MongoDB<br></p>
+8 of the 10 zone files have lat long and are in the MongoDB<br>
+However the map markers are not showing.<br>
+Next steps are to geocode the remaining 2 zones, and to get the map markers on the map working correctly.<br></p>
 <H3> Cleaning meeting information for Manhattan zones 1 - 10, storing with geocodes in MongoDB (NoSQL) and querying the database</H3>
 <H5> Connect MongoDB query output to Google Maps API to show upcoming meetings in local area</H5>
 
