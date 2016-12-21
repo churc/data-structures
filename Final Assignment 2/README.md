@@ -5,8 +5,8 @@
 <br>
 See code folder:<br>
 appLight.js / sublime text: inserts photocell sensor readings into AWS table, lightP. (window number, light reading, time).<br>
-```
-var pg = require('pg');
+<p>
+``` `` ```var pg = require('pg');
 var five = require("johnny-five"), board, photoresistor1, photoresistor2;
 // connection string
 var un = 'clare'; // aws db username
@@ -102,7 +102,7 @@ console.log(result.rows);
 }); //board
 }).on("release", function() {
       photoresistor2.off();    
-});```
+      });``` `` ```</p>
 queryLightAWS3.js / class 10: queries RDS db and returns query into server.js. <br>
 URL: https://class10-churc.c9users.io/ - and screenshots below. <br>
 <br>
