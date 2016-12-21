@@ -2,10 +2,12 @@
 <H4> Photoresistors reading light on 2 windowsills for 12 hours / Arduino / Johnny-Five / AWS RDS</H4>
 <H5> Light readings are in GMT (UTC): 6.30am - 6.30p EST is 11.30 - 23.30 GMT</H5>
 <H6>Arduino photocell sensor light readings (AWS RDS, sublime text, terminal. Query in node)<br>
+<br>
 See code folder:<br>
 appLight.js / sublime text: inserts photocell sensor readings into AWS table, lightP. (window number, light reading, time).<br>
 queryLightAWS3.js / class 10: queries RDS db and returns query into server.js. <br>
 URL: https://class10-churc.c9users.io/ - and screenshots below. <br>
+<br>
 The aim was to record light change over the course of the day on 2 windowsills to find the optimal light/placing for edible plants. The project was inspired by attempts to grow plants at home with a new building going up across the street blocking out direct sunlight for part of the day.<br>
 Questions:
 <ul>
