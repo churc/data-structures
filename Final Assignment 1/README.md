@@ -6,7 +6,7 @@
 <i>apped1.js/ class 3</i>: scrapes AA meeting html Manhattan zones 1 - 10 and saves in 01.txt - 10.txt files (/home/ubuntu/workspace/zipData/01.txt - /10.txt).</p><br>
 <p>
 <i>apped4_ah.js/ class 3</i>: takes all information from 01.txt - 10.txt files (/home/ubuntu/workspace/zipData/01.txt - /10.txt) and saves in ten new files (raw_groups1.txt - /10.txt).</p><br>
-<p>```` ``` ````
+<p>```
 var fs = require('fs');
 var cheerio = require('cheerio'); // npm install cheerio
 var content = fs.readFileSync('/home/ubuntu/workspace/zipData/01.txt');
@@ -52,7 +52,7 @@ $('tbody').find('tr').each(function(i, elem) {
  console.log(groups);
  console.log(groups.length);
 fs.writeFileSync('/home/ubuntu/workspace/raw_groups1.txt', JSON.stringify(groups));
-```` ``` ````</p>
+```</p>
 <br>
 <br>
 <p>
