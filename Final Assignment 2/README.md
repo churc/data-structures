@@ -5,7 +5,7 @@
 See code folder:<br>
 appLight.js / sublime text: inserts photocell sensor readings into AWS table, lightP. (window number, light reading, time).<br>
 queryLightAWS3.js / class 10: queries RDS db and returns query into server.js. <br>
-URL: https://class10-churc.c9users.io/ - screenshots below. <br>
+URL: https://class10-churc.c9users.io/ - and screenshots below. <br>
 The aim was to record light change over the course of the day on 2 windowsills to find the optimal light/placing for edible plants. The project was inspired by attempts to grow plants at home with a new building going up across the street blocking out direct sunlight for part of the day.<br>
 Questions:
 <ul>
