@@ -1,8 +1,8 @@
-<p>Update note on status of project: The MongoDB query runs - see c9/ AqueryMongo.js / homework1 https://ide.c9.io/churc/homework1 and in https://github.com/churc/data-structures/FinalAssignment1 <br>
+<p>Update note on status of project: The MongoDB query is running to pull up local same and next day meetings through to 4am: see c9/ AqueryMongo.js / homework1 https://ide.c9.io/churc/homework1.<br>
+All code is in https://github.com/churc/data-structures/FinalAssignment1 and detailed below.<br>
 The 10 Manhattan zones have the correct number of meetings.<br>
-8 of the 10 zone files have lat long and are in the MongoDB<br>
-However the map markers are not showing.<br>
-Next steps are to geocode the remaining 2 zones, and to get the map markers on the map working correctly.<br></p>
+8 of the 10 zone files have lat long and are in the MongoDB<br><br>
+Next steps are to geocode the remaining 2 zones, and to get the map markers on the map working correctly, checking the time (through to 4am).<br></p>
 <H3> Cleaning meeting information for Manhattan zones 1 - 10, storing with geocodes in MongoDB (NoSQL) and querying the database</H3>
 <H5> Connect MongoDB query output to Google Maps API to show upcoming meetings in local area</H5>
 
