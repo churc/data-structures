@@ -6,7 +6,7 @@
 See code folder:<br>
 appLight.js / sublime text: inserts photocell sensor readings into AWS table, lightP. (window number, light reading, time).<br>
 <p>
-``` `` ```
+```
 var pg = require('pg');
 var five = require("johnny-five"), board, photoresistor1, photoresistor2;
 // connection string
