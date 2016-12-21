@@ -1,0 +1,233 @@
+Parsons School of Design, The New School
+School of Art, Media and Technology
+Master of Science, Data Visualization
+
+Data Structures
+
+PGDV 5110 Syllabus, Fall 2016
+
+Tuesday, 7:00pm - 9:40pm 
+Innovation Center, 6 E 16th Street, Room 603
+
+Faculty: Aaron Hill
+
+Teaching Assistant: Priyal Parikh | Office Hours: Fridays 4pm - 6pm
+
+Curating raw data presents issues of technology, speed, and efficiency, as well as broader ethical considerations of what it means to represent and make conclusions about groups and individuals from their data. This course covers the database, semi-structured data, and unstructured data. Students will gain familiarity with underlying data structures; techniques and tools, including acquisition, augmentation, and restructuring; data storage and aggregation; access to parallel and distributed computing; high-volume data, disparate sources, and performance; and streaming data, real time, and dynamic queries.
+
+Prerequisites
+Working knowledge of JavaScript, HTML/CSS, Linux command line, Git, and GitHub.
+
+Course Outline
+
+August 30 (Week 1)
+
+Introduction to data structures.
+
+Weekly Assignment 1, due 9/5 at 4:00pm [ level 1 | level 2 | level 3 ]
+You will "get" some HTML files, save them, and study their structure.
+
+Documentation
+Node request module
+Node fs module
+September 6 (Week 2)
+
+Fundamental data structures. The web as a database. "Raw data."
+
+Read
+Gitelman, Introduction and Color Plates
+Wirth, Niklaus. Algorithms + Data Structures = Programs (1976), pp. 7-44
+Javascript data types and structures
+Working with objects (JavaScript)
+Weekly Assignment 2, due 9/12 at 4:00pm [ level 1 | level 2 ]
+You will parse one of the HTML files you saved last week and log essential data to the console.
+
+Documentation
+Node cheerio module
+Introduction to the DOM
+September 13 (Week 3)
+
+Data augmentation and integration.
+
+Read
+Gitelman, Chapter 5
+Weekly Assignment 3, due 9/19 at 4:00pm [ level 1 | level 2 ]
+Using data you parsed last week, you will interface with the Google Maps API to augment the data you collected.
+
+Documentation
+Google Maps API
+Google Geocoding API
+Node Async module
+OPTIONAL: More information about creating and using environment variables in Linux.
+September 20 (Week 4)
+
+Data models I: NoSQL database.
+
+Read
+Gitelman, Chapter 6
+Weekly Assignment 4, due 9/26 at 4:00pm [ level 1 | level 2 ]
+You will begin to write the data you collected, parsed, and augmented to MongoDB: a NoSQL database. You will create, administer, and maintain the database.
+
+Documentation
+MongoDB Manual
+MongoDB data types (documents)
+MongoDB Data Models
+Another data model: denormalization
+MongoDB inserting documents
+Setting up MongoDB in Cloud 9
+Node mongodb module
+Documentation: book
+MongoDB: The Definitive Guide, Kristina Chodorow
+September 27 (Week 5)
+
+NoSQL database: indexes, query optimization, and data restructuring.
+
+Read
+Gitelman, Chapter 1
+Weekly Assignment 5, due 10/3 at 4:00pm [ level 1 | level 2 ]
+You will query data from the NoSQL database you have created, restructuring the data in the process.
+
+Documentation
+MongoDB queries
+MongoDB aggregation
+aggregation quick reference
+SQL to MongoDB Mapping Chart (helpful if you already know SQL)
+October 4 (Week 6)
+
+Data cleaning. Logging issues.
+
+Read
+Gitelman, Chapter 4
+For Big-Data Scientists, 'Janitor Work' Is Key Hurdle to Insights, The New York Times, August 17, 2014
+Weekly Assignment 6, due 10/17 at 4:00pm
+You will start logging issues and "cleaning" the data in your database.
+
+Final assignment 1 distributed, due 12/19 at 4:00pm [ level 1 | level 2 ]
+
+Documentation
+Mongo indexes
+GitHub issues
+Further reading
+Petzold, Charles. Code: The Hidden Language of Computer Hardware and Software. 2000.
+October 11: Yom Kippur, No Class
+
+October 18 (Week 7)
+
+Sensors. Data gathering and surveillance.
+
+Read
+Gitelman, Chapter 7
+Install
+Arduino IDE
+Weekly Assignment 7, due 10/25 at 4:00pm
+Switching gears from previous assignments, you will use a microcontroller and sensors to collect and log data to your local computer. You will also design (in concept only) an interactive visualization of the data you will collect from the sensor.
+
+Documentation
+Arduino button
+Adafruit tutorials
+Further reading
+Make: Sensors: A Hands-On Primer for Monitoring the Real World with Arduino and Raspberry Pi, Tero Karvinen et al.
+October 25 (Week 8)
+
+Data models II: SQL database.
+
+Read
+Gitelman, Chapter 2
+Weekly Assignment 8, due 11/7 at 4:00pm
+You will create a SQL database (using a managed database service) and begin writing your sensor data to it.
+
+Documentation
+Johnny-Five
+PostgreSQL data types
+Node pg module
+Further reading
+PostgreSQL documentation
+November 1 (Week 9)
+
+SQL database: indexes, query optimization, and data restructuring. Importing and exporting static files from databases.
+
+Read
+Gitelman, Chapter 8
+Weekly Assignment 9, due 11/7 at 4:00pm
+You will query data from the SQL database you have created, restructuring the data in the process.
+
+Documentation
+SQL tutorial
+November 8 (Week 10; meets 6:00pm - 8:00pm)
+
+Election Data: Sources, Structures, Streams, and Scale
+
+November 15 (Week 11)
+
+Streams and real-time data exchange.
+
+Moving to the front end of the web: infrastructure, efficiency, and latency.
+
+Read
+What is code?
+How the internet works
+Weekly Assignment 10, due 11/28 at 4:00pm
+You will create a basic API for the sensor data you have been collecting in previous assignments. The API must write a stream.
+
+Documentation
+Express
+Handlebars
+socket.io
+Further reading
+Web Development with Node and Express: Leveraging the JavaScript Stack, Ethan Brown
+November 22: No class
+
+November 29 (Week 12)
+
+Efficient data processing and delivery, at scale. Going beyond the single node. Cloud and distributed computing.
+
+Final assignment 2 distributed, due 12/19 at 4:00pm
+
+Read
+Gitelman, Chapter 3
+MapReduce: Simplified Data Processing on Large Clusters, Jeffrey Dean and Sanjay Ghemawat
+Bigtable: A Distributed Storage System for Structured Data, Fay Chang, Jeffrey Dean, Sanjay Ghemawat, Wilson C. Hsieh, Deborah A. Wallach, Mike Burrows, Tushar Chandra, Andrew Fikes, and Robert E. Gruber
+immens paper
+December 6 (Week 13)
+
+One-on-one meetings this week. We will not meet as a class. Schedule a meeting time here for Tuesday 12/6 or Thursday 12/8. If you cannot find a time on one of those days, let me know and we'll find a time that works for you.
+
+Read
+Gitelman, "Data Flakes" (afterword)
+December 13 (Week 14)
+
+Ethical implications of representation with data.
+
+Read
+The Code We Can't Control
+The Policy Machine
+Can a computer be arrested for buying drugs?
+December 20 (Week 15)
+
+Final assignment presentations.
+
+Learning Outcomes
+
+By the successful completion of this course, students will be able to demonstrate:
+
+Proficiency with various techniques to acquire, process, restructure, and analyze raw data.
+Ability to program and work within structured and unstructured databases to deliver and exchange data.
+Knowledge of methods for web development, hosting, and processing of data for visualizations, often from very large data sources.
+An understanding of computer science principles that support computational efficiency and speed.
+An understanding of the limitations and ethical considerations when using data to represent individuals and groups.
+Final Grade Calculation
+
+Attendance and Class Participation	20%
+Weekly Assignments (12 total)	35%
+Final assignment 1	25%
+Final Assignment 2	20%
+Late assignments:
+
+If an assignment is less than 24 hours late, the maximum possible grade is 75%.
+If an assignment is 24-48 hours late, the maximum possible grade is 50%.
+If an assignment is 48-72 hours late, the maximum possible grade is 25%.
+If an assignment is more than 72 hours late, no credit will be given.
+Required Reading
+
+"'Raw Data' Is an Oxymoron", Lisa Gitelman, 2013
+REFERENCE: MongoDB: The Definitive Guide, Kristina Chodorow, 2013
