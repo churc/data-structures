@@ -2,7 +2,7 @@
 All code is in https://github.com/churc/data-structures/FinalAssignment1 and detailed below.<br>
 The 10 Manhattan zones have the correct number of meetings.<br>
 8 of the 10 zone files have lat long and are in the MongoDB<br><br>
-Next steps are to geocode the remaining 2 zones, and to get the map markers on the map working correctly, checking the time (through to 4am).<br></p>
+Next steps are to geocode the remaining 2 zones, and to get the map markers on the map working correctly, checking that all times of day work.<br></p>
 <H3> Cleaning meeting information for Manhattan zones 1 - 10, storing with geocodes in MongoDB (NoSQL) and querying the database</H3>
 <H5> Connect MongoDB query output to Google Maps API to show upcoming meetings in local area</H5>
 
@@ -21,6 +21,8 @@ Next steps are to geocode the remaining 2 zones, and to get the map markers on t
 <br>
 <p>
 <i>clean_apped6_ah.js/ homework 1</i>: inserts the ten groupsAddLL01 - /10.txt files into MongoDB.</p>
+<br>
+<H6 align = "center"> <img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%201/Screen%20Shot%202016-12-21%20at%204.17.20%20PM.png>
 <br>
 <p>
 <i>AqueryMongo.js/ homework 1</i>: aggregates MongoDB documents and returns query into server.js.</p>
