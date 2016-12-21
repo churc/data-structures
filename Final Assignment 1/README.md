@@ -23,8 +23,8 @@
 <p><H6>
 URL: https://homework1-churc.c9users.io/</H6></p>
 <br>
-<H6 align = "center"> ![alt text](https://github.com/churc/data-structures/blob/master/Final%20Assignment%201/Screen%20Shot%202016-12-18%20at%202.14.02%20AM_fullInfo.png)</H6>
+<H6 align = "center"> <img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%201/Screen%20Shot%202016-12-18%20at%202.14.02%20AM_fullInfo.png>
 <br>
-<H6 align = "center"> ![alt text](https://github.com/churc/data-structures/blob/master/Final%20Assignment%201/Screen%20Shot%202016-12-18%20at%202.20.42%20AM_query.png)</H6>
+<H6 align = "center"> <img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%201/Screen%20Shot%202016-12-18%20at%202.20.42%20AM_query.png>
 
 
