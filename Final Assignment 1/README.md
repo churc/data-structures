@@ -22,7 +22,7 @@ Next steps are to geocode the remaining 2 zones, and to get the map markers on t
 <p>
 <i>clean_apped6_ah.js/ homework 1</i>: inserts the ten groupsAddLL01 - /10.txt files into MongoDB.</p>
 <br>
-<H6 align = "center"> <img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%201/Screen%20Shot%202016-12-21%20at%204.17.20%20PM.png>
+<H6 align ="center"> <img src=https://github.com/churc/data-structures/blob/master/Final%20Assignment%201/Screen%20Shot%202016-12-21%20at%204.17.20%20PM.png>
 <br>
 <p>
 <i>AqueryMongo.js/ homework 1</i>: aggregates MongoDB documents and returns query into server.js.</p>
