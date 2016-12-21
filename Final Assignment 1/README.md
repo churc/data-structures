@@ -10,6 +10,9 @@
 <p>
 
 ```
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
 /////TAKES EACH BlDG, NAME, DAY, MTG TYPE etc AND PARSES IT INTO RAW DATA FILE
 ///SEE clean_apped4_ah2.js TO CLEAN UP LINES, DO 24 HRS AND TO GO INTO MONGO DB
 var fs = require('fs');
