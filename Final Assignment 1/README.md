@@ -7,48 +7,7 @@
 <p>
 <i>apped4_ah.js/ class 3</i>: takes all information from 01.txt - 10.txt files (/home/ubuntu/workspace/zipData/01.txt - /10.txt) and saves in ten new files (raw_groups1.txt - /10.txt).</p><br>
 <b>
-``` `` ```var fs = require('fs');
-var cheerio = require('cheerio'); // npm install cheerio
-var content = fs.readFileSync('/home/ubuntu/workspace/zipData/01.txt');
-var groups = [];
-var $ = cheerio.load(content);
-$('tbody').find('tr').each(function(i, elem) {
-    var thisMeeting = new Object();
-    thisMeeting.building = $(elem).find('td').find('h4').eq(0).text().replace(/'&apos;'/g, "'").split(',')[0];
-    thisMeeting.name = $(elem).find('td').find('b').eq(0).text().replace(/\s+/g, " ").split('-')[0].trim();
-    var addressx = $(elem).find('td').eq(0).html().split('<br>')[2].trim().split(',')[0].split('-')[0].trim();
-    thisMeeting.address1 = addressx.concat(", New York, NY");   
-    if (thisMeeting.address1 === "283 W. Broadway, New York, NY") {
-        thisMeeting.address1 = "283 West Broadway, New York, NY";
-    }
-     if (thisMeeting.address1 === "22 Barclay Street (Basement), New York, NY") {
-        thisMeeting.address1 = "22 Barclay Street, New York, NY";
-    }
-     thisMeeting.address2 = thisMeeting.address1.substring().split(' ').join('+');
-     thisMeeting.notes = ($(elem).find('td').find('div').eq(0).text().trim().replace(/'<br>'/g, ",").trim().replace(/[*]/g,"").trim().replace(/=/g,""));
-    if (thisMeeting.notes === "@Duane and Centre behind Federal courthouse enter thru driveway behind Church No meetings on Holidays") {
-      thisMeeting.notes = "@ Duane and Centre behind Federal Courthouse. Enter thru driveway behind Church. No meetings on Holidays"; 
-    }
-    if (thisMeeting.notes === "This is new location as of 9-12-14 M 7:30 am Trad 1st Monday.") {
-      thisMeeting.notes = "This is new location as of 9-12-14. M 7:30 am Trad 1st Monday."; 
-    }
-  
-    if (thisMeeting.notes === "this is the new location as of 9/8/14 tribecagroup2014@gmail.com") {
-      thisMeeting.notes = "This is the new location as of 9/8/14. tribecagroup2014@gmail.com"; 
-    }
-     thisMeeting.access = $(elem).find('td').find('span').eq(0).text().trim().split('span');
-    if (thisMeeting.access == "Wheelchair access") {
-        thisMeeting.access = true;
-    }
-    else  {
-        thisMeeting.access = false;
-} 
-     thisMeeting.meetings = $(elem).find('td').eq(1).html().split('<br>'); 
-     groups.push(thisMeeting);
-});
- console.log(groups);
- console.log(groups.length);
-fs.writeFileSync('/home/ubuntu/workspace/raw_groups1.txt', JSON.stringify(groups));``` `` ```
+``` `` ```var fs = require('fs');``` `` ```
 </b>
 <br>
 <p>
