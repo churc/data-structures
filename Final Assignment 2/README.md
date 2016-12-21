@@ -3,9 +3,9 @@
 <H5> Light readings are in GMT (UTC): 6.30am - 6.30p EST is 11.30 - 23.30 GMT</H5>
 <H6>Arduino photocell sensor light readings (AWS RDS, sublime text, terminal. Query in node)<br>
 <br>
-See code folder:<br>
+See code folder:<p><br>
 appLight.js / sublime text: inserts photocell sensor readings into AWS table, lightP. (window number, light reading, time).<br>
-<p>
+</p>
 ```
 var pg = require('pg');
 var five = require("johnny-five"), board, photoresistor1, photoresistor2;
@@ -105,7 +105,7 @@ console.log(result.rows);
 photoresistor2.off();    
 });
 ``` `` ```
-</p>
+
 queryLightAWS3.js / class 10: queries RDS db and returns query into server.js. <br>
 URL: https://class10-churc.c9users.io/ - and screenshots below. <br>
 <br>
