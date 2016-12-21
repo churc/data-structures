@@ -27,7 +27,7 @@ Next steps are to check that the meeting query is working correctly so that ther
 <br>Number of meetings in each Manhattan zone<br></H6><br>
 
 <p><i>AqueryMongo.js/ homework 1</i>: aggregates MongoDB documents and returns query into server.js.</p>
-<br>
+
 <p><H6>
 URL: https://homework1-churc.c9users.io/</H6></p>
 <br>
