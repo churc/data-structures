@@ -32,9 +32,7 @@ $('tbody').find('tr').each(function(i, elem) {
     if (thisMeeting.notes === "This is new location as of 9-12-14 M 7:30 am Trad 1st Monday.") {
       thisMeeting.notes = "This is new location as of 9-12-14. M 7:30 am Trad 1st Monday."; 
     }
-    if (thisMeeting.notes === "Business meeting last Tuesday @ Mar,Jun,Sep & Dec.only. Promises 1st Wednesday, T Last Thursday  LOCATION IS SUBJECT TO CHANGE") {
-      thisMeeting.notes = "Business meeting last Tuesday @ Mar, Jun, Sep & Dec.only. Promises 1st Wednesday, T Last Thursday. LOCATION IS SUBJECT TO CHANGE"; 
-    }
+  
     if (thisMeeting.notes === "this is the new location as of 9/8/14 tribecagroup2014@gmail.com") {
       thisMeeting.notes = "This is the new location as of 9/8/14. tribecagroup2014@gmail.com"; 
     }
