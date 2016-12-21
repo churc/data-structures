@@ -63,8 +63,8 @@ $('tbody').find('tr').each(function(i, elem) {
  console.log(groups);
  console.log(groups.length);
 fs.writeFileSync('/home/ubuntu/workspace/raw_groups1.txt', JSON.stringify(groups));
-
-</b>```
+```
+</b>
 <br>
 <p>
 <i>clean_apped4_ah2.js/class 3</i>: This takes apped4_ah.js and cleans data up for AA areas 1 to 10 (Manhattan). Saved in ten text files (groups1.txt - /10.txt).</p>
