@@ -9,10 +9,9 @@
 <i>apped4_ah.js/ class 3</i>: takes all information from 01.txt - 10.txt files (/home/ubuntu/workspace/zipData/01.txt - /10.txt) and saves in ten new files (raw_groups1.txt - /10.txt).</p>
 <br>
 <b>
-```
+```````
 var fs = require('fs');
 var cheerio = require('cheerio'); // npm install cheerio
-////////////
 ///////FOR TXT FILE 1
 var content = fs.readFileSync('/home/ubuntu/workspace/zipData/01.txt');
 var groups = [];
@@ -35,7 +34,6 @@ $('tbody').find('tr').each(function(i, elem) {
      thisMeeting.address2 = thisMeeting.address1.substring().split(' ').join('+');  
 //     /////// NOTES BOX
      thisMeeting.notes = ($(elem).find('td').find('div').eq(0).text().trim().replace(/'<br>'/g, ",").trim().replace(/[*]/g, "").trim().replace(/=/g, ""));
-
     if (thisMeeting.notes === "@Duane and Centre behind Federal courthouse enter thru driveway behind Church No meetings on Holidays") {
       thisMeeting.notes = "@ Duane and Centre behind Federal Courthouse. Enter thru driveway behind Church. No meetings on Holidays"; 
     }
@@ -48,7 +46,7 @@ $('tbody').find('tr').each(function(i, elem) {
     if (thisMeeting.notes === "this is the new location as of 9/8/14 tribecagroup2014@gmail.com") {
       thisMeeting.notes = "This is the new location as of 9/8/14. tribecagroup2014@gmail.com"; 
     }
-//     ////////  WHEELCHAIR ACCESS///note changed
+////////  WHEELCHAIR ACCESS///note changed
      thisMeeting.access = $(elem).find('td').find('span').eq(0).text().trim().split('span');
     if (thisMeeting.access == "Wheelchair access") {
         thisMeeting.access = true;
@@ -63,7 +61,7 @@ $('tbody').find('tr').each(function(i, elem) {
  console.log(groups);
  console.log(groups.length);
 fs.writeFileSync('/home/ubuntu/workspace/raw_groups1.txt', JSON.stringify(groups));
-```
+``````
 </b>
 <br>
 <p>
