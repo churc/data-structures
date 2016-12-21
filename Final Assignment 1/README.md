@@ -10,7 +10,7 @@
 <p>
 
 ```
-///apped4_ah.js/ class3 //TAKES EACH BlDG, NAME, DAY, MTG TYPE etc AND PARSES IT INTO RAW DATA FILE
+/////TAKES EACH BlDG, NAME, DAY, MTG TYPE etc AND PARSES IT INTO RAW DATA FILE
 ///SEE clean_apped4_ah2.js TO CLEAN UP LINES, DO 24 HRS AND TO GO INTO MONGO DB
 var fs = require('fs');
 var cheerio = require('cheerio'); // npm install cheerio
